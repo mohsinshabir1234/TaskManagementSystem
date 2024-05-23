@@ -1,0 +1,32 @@
+{
+  "name": "taskmanagement",
+  "version": "1.0.0",
+  "description": "A software to organize ,track, and manage tasks and projects effectively",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohsinshabir1234/TaskManagementSystem.git"
+  },
+  "author": "Mohsin Shabir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohsinshabir1234/TaskManagementSystem/issues"
+  },
+  "homepage": "https://github.com/mohsinshabir1234/TaskManagementSystem#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.4.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
